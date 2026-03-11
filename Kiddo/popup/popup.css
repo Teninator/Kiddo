@@ -1,0 +1,30 @@
+body {
+
+  width: 240px;
+
+  font-family: system-ui;
+
+  padding: 12px;
+}
+
+h2 {
+
+  margin-top: 0;
+}
+
+button {
+
+  margin-top: 10px;
+
+  width: 100%;
+
+  padding: 8px;
+
+  border-radius: 6px;
+
+  border: none;
+
+  background: #ffd54f;
+
+  cursor: pointer;
+}

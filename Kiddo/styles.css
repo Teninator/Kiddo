@@ -1,0 +1,75 @@
+#kiddo-warning {
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  width: 280px;
+
+  background: white;
+  border-radius: 12px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+
+  font-family: system-ui;
+
+  z-index: 999999;
+}
+
+.kiddo-header {
+
+  background: #ffd54f;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+#kiddo-close {
+
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.kiddo-body {
+
+  padding: 12px;
+  font-size: 14px;
+}
+
+.kiddo-highlight {
+
+  background: #ffd6d6;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.kiddo-phrase {
+
+  background: #ffe0e0;
+  padding: 4px 6px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+#kiddo-dismiss {
+
+  margin-top: 10px;
+
+  width: 100%;
+
+  padding: 8px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  background: #ffd54f;
+
+  cursor: pointer;
+}

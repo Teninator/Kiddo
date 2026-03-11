@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Kiddo",
+  "version": "2.0",
+  "description": "A friendly helper that warns about scams and misinformation.",
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "services/riskAnalyzer.js",
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "kiddo@extension"
+    }
+  }
+}
