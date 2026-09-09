@@ -1,4 +1,3 @@
-readme_content = """# Kiddo
 
 **Kiddo** is a lightweight, privacy-focused browser extension (Chrome / Manifest V3) designed to protect users from malicious clipboards, high-risk content pasting, code injection attempts, and excessive input payload sizes.
 
